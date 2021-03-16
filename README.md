@@ -9,29 +9,34 @@ The dataset pertaining to 2007-2011 has been acquired from https://data.world/ja
 ## 2. Data Wrangling
 [Data Wrangling Report]()
 
-All columns entirely comprised of missing values have been removed from the working data prior to the three tasks listed below.
-
-__Task 1:__ Feature Selection
+__Feature Selection__
  * Features have been evaluated and selected based on: redundancy, relevance, data leakage, usefulness.
  * Any unnecessary features have been removed from the working data.
  
-__Task 2:__ Feature Modification
+__Feature Modification__
  * Average FICO range of borrower have been derived from upper and lower boundary FICO range of borrower.
  * Target feature (loan_status) has been converted into a binary classification feature.
 
-__Task 3:__ Target Feature Visualization
+__Target Feature Visualization__
  * It is evident from the pie chart that the given data is imbalanced data.
 
 ## 3. Exploratory Data Analysis
 [Exploratory Data Analysis Report]()
 
-Notable loan_type correlations
+__Feature Correlations__
+
+__Notable Loan Type Correlations:__
  * grade
  * fico_range_avg
  * revol_util
  * inq_last_6mths
 
-## 4. Modeling
+## 4. Preprocessing
+[Preprocessing Report]()
+
+Columns containing datetime information have been converted into datetime objects, and nominal features have been one-hot encoded.
+
+## 5. Modeling
 [Modeling Notebook]()
 
 SMOTE has been used to oversample the minority class of the training dataset before the modeling process to resolve the issue of imbalanced data.
