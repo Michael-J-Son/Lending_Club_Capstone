@@ -31,7 +31,7 @@ __1) Object Feature Conversion__
 
 __2) Feature Correlations__
 
-__3) Notable Loan Type Correlations:__
+__Notable Loan Type Correlations:__
  * grade
  * fico_range_avg
  * revol_util
@@ -40,28 +40,35 @@ __3) Notable Loan Type Correlations:__
 ## IV. Preprocessing
 [Preprocessing Report]()
 
-Columns containing datetime information have been converted into datetime objects, and nominal features have been one-hot encoded.
+__1) Data Processing__
+ * Features containing datetime information have been converted into datetime objects, and nominal features have been one-hot encoded.
 
 ## V. Modeling
 [Modeling Notebook]()
 
-SMOTE has been used to oversample the minority class of the training dataset before the modeling process to resolve the issue of imbalanced data.
+__1) Train Test Split__
 
-Models tested:
+__2) Standardize Features__
+ * Standardize features using StandardScaler
+
+__3) Resampling__
+ * SMOTE has been used to oversample the minority class of the training dataset before the modeling process to resolve the issue of imbalanced data.
+
+__4) Model Evaluation__
+ * Hyperparameter tuning with Grid Search
+ * Evaluation metrics: F1 score, ROC AUC score
+
+__Models Tested:__
  * Logistic Regression
  * Random Forest
  * Support Vector Machine
  * XGBoost
 
-
-
-Random Forest Classifier has been selected
-
-metrics: ROC AUC score, F1 scores
-
-Primary features of importance:
- * last_credit_pull d
+__Primary Features of Importance:__
+ * last_credit_pull_d
  * grade
- * inq last 6mths
+ * inq_last_6mths
+
+
 
 
