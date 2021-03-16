@@ -9,17 +9,18 @@ The dataset pertaining to 2007-2011 has been acquired from https://data.world/ja
 ## 2. Data Wrangling
 [Data Wrangling Report]()
 
-All columns entirely comprised of missing values have been removed from the working data.
+All columns entirely comprised of missing values have been removed from the working data prior to the three tasks listed below.
 
-__Problem 1:__ Feature Selection
+__Task 1:__ Feature Selection
  * Features have been evaluated and selected based on: redundancy, relevance, data leakage, usefulness.
  * Any unnecessary features have been removed from the working data.
  
-__Problem 2:__ Feature Modification
+__Task 2:__ Feature Modification
  * Average FICO range of borrower have been derived from upper and lower boundary FICO range of borrower.
  * Target feature (loan_status) has been converted into a binary classification feature.
 
-__Problem 3:__ Imbalanced Data
+__Task 3:__ Target Feature Visualization
+ * It is evident from the pie chart that the given data is imbalanced data.
 
 ## 3. Exploratory Data Analysis
 [Exploratory Data Analysis Report]()
@@ -45,7 +46,7 @@ Models tested:
 
 Random Forest Classifier has been selected
 
-metric
+metrics: ROC AUC score, F1 scores
 
 Primary features of importance:
  * last_credit_pull d
