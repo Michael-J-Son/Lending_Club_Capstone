@@ -23,6 +23,8 @@ __3) Feature Modification__
 __4) Target Feature Visualization__
  * It is evident from the pie chart that the given data is imbalanced data.
 
+![](./readme/percentage_of_loan_type.png)
+
 ## III. Exploratory Data Analysis
 [Exploratory Data Analysis Report]()
 
@@ -30,12 +32,20 @@ __1) Object Feature Conversion__
  * Object features containing numerical or ordinal values have been converted into numerical features.
 
 __2) Feature Correlations__
+ * It is rather difficult to ascribe much significance to most of these correlations, since their high values are attributable to features which are intrinsically closely associated with each other.
+
+![](./readme/percentage_of_loan_type.png)
 
 __Notable Loan Type Correlations:__
  * grade
  * fico_range_avg
  * revol_util
  * inq_last_6mths
+
+![](./readme/percentage_of_loan_type.png)
+
+Bad loans appear to be relatively high among grade 1, 2, and 3.
+Ideally, the number of bad loans should be increasing with declining grade.
 
 ## IV. Preprocessing
 [Preprocessing Report]()
@@ -67,6 +77,8 @@ __Models Tested:__
 Random Forest is the optimal model for the current data based on its performance on F1 score and ROC AUC.
 F1 scores for the minority and majority class of test dataset are respectively 0.50 and 0.91.
 ROC AUC score is 0.71. 
+
+![](./readme/percentage_of_loan_type.png)
 
 __Primary Features of Importance Derived from Random Forest:__
  * last_credit_pull_d
