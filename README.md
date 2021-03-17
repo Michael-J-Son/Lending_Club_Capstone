@@ -34,7 +34,7 @@ __1) Object Feature Conversion__
 __2) Feature Correlations__
  * It is rather difficult to ascribe much significance to most of these correlations, since their high values are attributable to features which are intrinsically closely associated with each other.
 
-![](./readme/percentage_of_loan_type.png)
+![](./readme/correlation_heatmap.png)
 
 __Notable Loan Type Correlations:__
  * grade
@@ -42,10 +42,10 @@ __Notable Loan Type Correlations:__
  * revol_util
  * inq_last_6mths
 
-![](./readme/percentage_of_loan_type.png)
+![](./readme/distribution_of_loan_types_by_grade.png)
 
 Bad loans appear to be relatively high among grade 1, 2, and 3.
-Ideally, the number of bad loans should be increasing with declining grade.
+Ideally, the number of bad loans should be increasing with declining grade, considering lower grades being equivalent to better grades.
 
 ## IV. Preprocessing
 [Preprocessing Report]()
@@ -78,7 +78,7 @@ Random Forest is the optimal model for the current data based on its performance
 F1 scores for the minority and majority class of test dataset are respectively 0.50 and 0.91.
 ROC AUC score is 0.71. 
 
-![](./readme/percentage_of_loan_type.png)
+![](./readme/rf_feature_importance.png)
 
 __Primary Features of Importance Derived from Random Forest:__
  * last_credit_pull_d
