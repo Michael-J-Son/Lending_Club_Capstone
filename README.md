@@ -56,7 +56,7 @@ __3) Resampling__
 
 __4) Model Evaluation__
  * Hyperparameter tuning with Grid Search
- * Evaluation metrics: F1 score, ROC AUC score
+ * F1 score and ROC AUC score were preferred over accuracy, as this project is an imbalanced classification problem.
 
 __Models Tested:__
  * Logistic Regression
@@ -64,11 +64,14 @@ __Models Tested:__
  * Support Vector Machine
  * XGBoost
 
-__Primary Features of Importance:__
+Random Forest is the optimal model for the current dataset based on its performance on F1 score and ROC AUC.
+
+__Primary Features of Importance Derived from Random Forest:__
  * last_credit_pull_d
  * grade
  * inq_last_6mths
 
+## VI. Prospective Improvement
 
 
 
