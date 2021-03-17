@@ -52,7 +52,7 @@ __2) Standardize Features__
  * Standardize features using StandardScaler
 
 __3) Resampling__
- * SMOTE has been used to oversample the minority class of the training dataset before the modeling process to resolve the issue of imbalanced data.
+ * SMOTE from imbalanced-learn library has been used to oversample the minority class of the training data to resolve the issue of imbalanced data.
 
 __4) Model Evaluation__
  * Hyperparameter tuning with Grid Search
@@ -64,7 +64,7 @@ __Models Tested:__
  * Support Vector Machine
  * XGBoost
 
-Random Forest is the optimal model for the current dataset based on its performance on F1 score and ROC AUC.
+Random Forest is the optimal model for the current data based on its performance on F1 score and ROC AUC.
 
 __Primary Features of Importance Derived from Random Forest:__
  * last_credit_pull_d
@@ -72,6 +72,6 @@ __Primary Features of Importance Derived from Random Forest:__
  * inq_last_6mths
 
 ## VI. Prospective Improvement
-
-
-
+* Up-to-date information for the data
+* In-depth feature engineering
+* Extensive hyperparameter tuning
