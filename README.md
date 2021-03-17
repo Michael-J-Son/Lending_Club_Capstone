@@ -7,7 +7,7 @@ While it is impossible to develop a completely foolproof screening system, utili
 The dataset pertaining to 2007-2011 has been acquired from https://data.world/jaypeedevlin/lending-club-loan-data-2007-11.
 
 ## II. Data Wrangling
-[Data Wrangling Report]()
+[Data Wrangling Report](https://github.com/Michael-J-Son/Lending_Club_Capstone/blob/main/data_wrangling/Lending_Club_Data_Wrangling.ipynb)
 
 __1) Data Cleaning__
  * All columns entirely comprised of missing values have been eliminated from the working data.
@@ -26,7 +26,7 @@ __4) Target Feature Visualization__
 ![](./readme/percentage_of_loan_type.png)
 
 ## III. Exploratory Data Analysis
-[Exploratory Data Analysis Report]()
+[Exploratory Data Analysis Report](https://github.com/Michael-J-Son/Lending_Club_Capstone/blob/main/exploratory_data_analysis/Lending_Club_EDA.ipynb)
 
 __1) Object Feature Conversion__
  * Object features containing numerical or ordinal values have been converted to numerical features.
@@ -48,13 +48,13 @@ Bad loans appear to be relatively high among grade 1, 2, and 3.
 Ideally, the number of bad loans should be increasing with declining grade, considering lower grades being equivalent to better grades.
 
 ## IV. Preprocessing
-[Preprocessing Report]()
+[Preprocessing Report](https://github.com/Michael-J-Son/Lending_Club_Capstone/blob/main/preprocessing/Lending_Club_Preprocessing.ipynb)
 
 __1) Data Processing__
  * Features containing datetime information have been converted into datetime objects, and nominal features have been one-hot encoded.
 
 ## V. Modeling
-[Modeling Notebook]()
+[Modeling Notebook](https://github.com/Michael-J-Son/Lending_Club_Capstone/blob/main/modeling/Lending_Club_Modeling.ipynb)
 
 __1) Train Test Split__
 
