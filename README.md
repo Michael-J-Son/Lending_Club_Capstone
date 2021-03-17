@@ -18,7 +18,7 @@ __2) Feature Selection__
  
 __3) Feature Modification__
  * Average FICO range of borrower have been derived from upper and lower boundary FICO range of borrower.
- * Target feature (loan_status) has been converted into a binary classification feature.
+ * Target feature (loan_status) has been converted to a binary classification feature.
 
 __4) Target Feature Visualization__
  * It is evident from the pie chart that the given data is imbalanced data.
@@ -29,7 +29,7 @@ __4) Target Feature Visualization__
 [Exploratory Data Analysis Report]()
 
 __1) Object Feature Conversion__
- * Object features containing numerical or ordinal values have been converted into numerical features.
+ * Object features containing numerical or ordinal values have been converted to numerical features.
 
 __2) Feature Correlations__
  * It is rather difficult to ascribe much significance to most of these correlations, since their high values are attributable to features which are intrinsically closely associated with each other.
