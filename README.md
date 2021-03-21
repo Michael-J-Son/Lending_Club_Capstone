@@ -1,3 +1,4 @@
+![cover_photo](./readme/cover_photo.png)
 # Lending Club Loan Approval Optimization
 Lending Club is one of the world's largest peer-to-peer lending platform for personal loans.
 Its business operation is undermined by the inclusion of delinquent borrowers and the exclusion of responsible borrowers, misrepresented in the loan approval process.
