@@ -74,19 +74,3 @@ __Models Tested:__
  * Random Forest
  * Support Vector Machine
  * XGBoost
-
-Random Forest is the optimal model for the current data based on its performance on F1 score and ROC AUC.
-F1 scores for the minority and majority class of test dataset are respectively 0.50 and 0.91.
-ROC AUC score is 0.71. 
-
-![](./readme/rf_feature_importance.png)
-
-__Primary Features of Importance Derived from Random Forest:__
- * last_credit_pull_d
- * grade
- * inq_last_6mths
-
-## VI. Prospective Improvement
-* Up-to-date information for the data
-* In-depth feature engineering
-* Extensive hyperparameter tuning
