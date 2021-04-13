@@ -60,13 +60,13 @@ __1) Data Processing__
 __1) Train Test Split__
 
 __2) Standardize Features__
- * Standardize features using StandardScaler
+ * Standardized features using StandardScaler
 
 __3) Resampling__
  * SMOTE from imbalanced-learn library has been used to oversample the minority class of the training data to resolve the issue of imbalanced data.
 
 __4) Model Evaluation__
- * Hyperparameter tuning with Grid Search
+ * Hyperparameter tuning with Randomized Search
  * F1 score and ROC AUC score were preferred over accuracy as evaluation metrics because this project is an imbalanced classification problem.
 
 __Models Tested:__
