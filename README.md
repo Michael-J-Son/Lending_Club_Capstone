@@ -59,7 +59,7 @@ __1) Data Processing__
 
 __1) Train Test Split__
 
-__2) Standardize Features__
+__2) Standardization of Features__
  * Standardized features using StandardScaler
 
 __3) Resampling__
