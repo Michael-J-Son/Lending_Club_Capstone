@@ -76,6 +76,6 @@ __Models Tested:__
  * Support Vector Machine
  * XGBoost
 
-__Feature of Importance__
+__Features of Importance__
 
 ![](./readme/xgboost_feature_importance.png)
