@@ -66,11 +66,16 @@ __3) Resampling__
  * SMOTE from imbalanced-learn library has been used to oversample the minority class of the training data to resolve the issue of imbalanced data.
 
 __4) Model Evaluation__
- * Hyperparameter tuning with Randomized Search
+ * Hyperparameter tuning with Randomized Search.
  * F1 score and ROC AUC score were preferred over accuracy as evaluation metrics because this project is an imbalanced classification problem.
+ * Best Model: XGBoost, based on the performance evaluation in this project.
 
 __Models Tested:__
  * Logistic Regression
  * Random Forest
  * Support Vector Machine
  * XGBoost
+
+__Feature of Importance__
+
+![](./readme/xgboost_feature_importance.png)
