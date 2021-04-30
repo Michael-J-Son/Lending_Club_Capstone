@@ -121,18 +121,18 @@ IV. Performance Evaluation
    * **Logistic Regression**
    * **Random Forest**
    * **Support Vector Machine**
-   * **XGBoost**
+   * **eXtreme Gradient Boosting**
 
 ### Model Comparison
 
-| Model                  | Minority F1 | Majority F1 | ROC AUC |
-| ---------------------- | ----------- | ----------- | ------- |
-| Logistic Regression    | 0.47        | 0.80        | 0.78    |
-| Random Forest          | 0.53        | 0.91        | 0.74    |
-| Support Vector Machine | 0.41        | 0.87        | 0.67    |
-| XGBoost                | 0.56        | 0.89        | 0.80    |
+| Model                     | Minority F1 | Majority F1 | ROC AUC | Accuracy |
+| ------------------------- | ----------- | ----------- | ------- | -------- |
+| Logistic Regression       | 0.47        | 0.80        | 0.78    | 0.71     |
+| Random Forest             | 0.53        | 0.91        | 0.74    | 0.85     |
+| Support Vector Machine    | 0.41        | 0.87        | 0.67    | 0.79     |
+| eXtreme Gradient Boosting | 0.56        | 0.89        | 0.80    | 0.83     |
 
- * Best model: **XGBoost**
+ * Best model: **eXtreme Gradient Boosting**
 
 ### Features of Importance
 
@@ -157,7 +157,7 @@ IV. Performance Evaluation
 
 ## Conclusion
 
- * Best model: **XGBoost**
+ * Best model: **eXtreme Gradient Boosting**
  * Primary features of importance: **last_credit_pull_d**, **grade**, **inq_last_6mths**
  * Prospective improvements
 
